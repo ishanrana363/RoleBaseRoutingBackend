@@ -34,7 +34,6 @@ const userLogin = async (req, res) => {
         })
 
     } catch (error) {
-        console.log(error)
         return errorResponse(res, 500, "something went wrong", error)
     }
 }
